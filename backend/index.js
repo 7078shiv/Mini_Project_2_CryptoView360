@@ -1,10 +1,10 @@
 const express = require("express");
 const app = express();
-const port = 8000;
+const port = 3000;
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
-const db = require("./config/mongoose");
+const db = require("./config/mongoose").default;
 require("dotenv").config();
 const path = require("path");
 const session = require("express-session");

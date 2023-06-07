@@ -6,5 +6,4 @@ const UserApi = {
     return res.json();
   },
 };
-
-module.exports = { UserApi }; 
+export default { UserApi }; 

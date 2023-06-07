@@ -9,15 +9,9 @@ import Home from "./home";
 import Middle from "./middle";
 import News from "./homePageComponents/News";
 
-// const useStyles = makeStyles(() => ({
-//   App: {
-//     backgroundColor: "#14161a",
-//     color: "white",
-//     minHeight: "100vh",
-//   },
-// }));
 
 function App() {
+  
   return (
     <>
       {/* <Header /> */}
